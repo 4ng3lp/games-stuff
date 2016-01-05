@@ -5,7 +5,11 @@
 # input format: dir/dir/name (number).png/jpg/gif
 # output:
 # output_folder.multi\32x32\dir\name\number.png --> Zero padding
+<<<<<<< HEAD
 #                    \64x64\dir\name\number.png
+=======
+#		     \64x64\dir\name\number.png
+>>>>>>> 2e1bfd9e07ef71c260520ae68bccead607cdd73a
 #
 # In linux is needed the imageMagick utility "convert"
  
