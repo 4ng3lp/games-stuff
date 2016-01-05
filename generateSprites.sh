@@ -1,14 +1,14 @@
 #!/bin/bash
 # aparra
-# Generate set's of diferents sizes png's. Mac os x
+# Generate set's of differents sizes png's. Mac os x
 # ./generateSprites input_folder output_folder
 # input format: dir/dir/name (number).png/jpg/gif
 # output:
 # output_folder.multi\32x32\dir\name\number.png --> Zero padding
-#					 \64x64\dir\name\number.png
+#                    \64x64\dir\name\number.png
 #
-# 
-
+# In linux is needed the imageMagick utility "convert"
+ 
 #sizes 16 32 64 128 256 512 ...
 sizes=(64 32)
 #outputdir
